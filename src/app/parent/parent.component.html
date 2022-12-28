@@ -1,0 +1,4 @@
+
+<h2>{{showMessage}}</h2>
+<!-- <app-events [childMessage]="message"></app-events> -->
+<app-events  [childMessage]="message" (event)="onEventEmitter($event)" ></app-events>
